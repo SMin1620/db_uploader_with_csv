@@ -72,9 +72,9 @@ WSGI_APPLICATION = 'westarbucks.wsgi.application'
 DATABASES = {
     'default' : {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '????',      # db이름
-        'USER': '???',       # db 유저이름
-        'PASSWORD': '???',   # db 유저의 이름
+        'NAME': 'westarbucks',      # db이름
+        'USER': 'root',       # db 유저이름
+        'PASSWORD': '1111',   # 해당 유저의 비번
         'HOST': 'localhost', # aws인 경우 해당 호스트 이름이 길어요. 
         'PORT': '3306',      # port 넘버
     }
