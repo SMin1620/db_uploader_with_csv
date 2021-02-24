@@ -27,8 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # 3rd party 
-    'corsheaders',
-    'django_extensions',
+    # 'corsheaders',
+    # 'django_extensions',
     # local
     'products',
     
@@ -72,11 +72,11 @@ WSGI_APPLICATION = 'westarbucks.wsgi.application'
 DATABASES = {
     'default' : {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'westarbucks',
-        'USER': 'root',
-        'PASSWORD': '1111',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': '????',      # db이름
+        'USER': '???',       # db 유저이름
+        'PASSWORD': '???',   # db 유저의 이름
+        'HOST': 'localhost', # aws인 경우 해당 호스트 이름이 길어요. 
+        'PORT': '3306',      # port 넘버
     }
 }
 
