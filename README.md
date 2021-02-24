@@ -20,8 +20,7 @@ pip install -r requirements.txt
 
 3. DB 껍데기 만들기
 
-> 
-$ mysql -uroot -p;
+> $ mysql -uroot -p;
 $ create database 디비이름;
 
 4. migrations & migrate
